@@ -20,7 +20,7 @@ test.describe('Youtube video search and play', () => {
         await browser.close();
     });
 
-    test('should search and play a video in minireproductor', async() => {
+    test('should search and play a video in miniplayer', async() => {
         await youtubeHomePage.navigate();
         await youtubeHomePage.searchVideo('Hello World');
         await youtubeHomePage.enterToFirstVideo();
